@@ -6,4 +6,4 @@ let materials_for_pizza = 0.5 * diameter_of_the_pizza
 let labour_and_rent = LABOUR_COST + RENT_OF_SHOP
 let cost_of_pizza = labour_and_rent + materials_for_pizza
 let Cost_of_pizza_and_tax = cost_of_pizza * HST
-game.splash("The cost of your " + diameter_of_the_pizza + "inch pizza is " + Math.round(Cost_of_pizza_and_tax) + "(HST included)")
+game.splash("The cost of your " + diameter_of_the_pizza + "inch pizza is $" + Math.round(Cost_of_pizza_and_tax) + "(HST included)")
